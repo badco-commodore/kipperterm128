@@ -1,0 +1,72 @@
+Modules list:
+-------------
+test_httpd.o:
+    CODE              Offs = 000000   Size = 000027
+    RODATA            Offs = 000000   Size = 00014C
+    BSS               Offs = 000000   Size = 000021
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000002
+    NULL              Offs = 000000   Size = 000000
+    STARTUP           Offs = 000000   Size = 0000FE
+../drivers/c64rrnet.lib(generic_zero_page.o):
+    CODE              Offs = 000027   Size = 000000
+    RODATA            Offs = 00014C   Size = 000000
+    BSS               Offs = 000021   Size = 000000
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000002   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    IP65ZP            Offs = 000000   Size = 00000C
+
+
+Segment list:
+-------------
+Name                  Start   End     Size
+--------------------------------------------
+NULL                  000000  000000  000000
+ZEROPAGE              000002  000003  000002
+IP65ZP                00005F  00006A  00000C
+STARTUP               0007FF  0008FC  0000FE
+CODE                  0008FD  000923  000027
+DATA                  000924  000924  000000
+RODATA                000924  000A6F  00014C
+BSS                   000A70  000A90  000021
+
+
+Exports list:
+-------------
+__CODE_LOAD__             0008FD  LA    __CODE_RUN__              0008FD  LA    
+__CODE_SIZE__             000027  EA    __DATA_LOAD__             000924  LA    
+__DATA_RUN__              000924  LA    __DATA_SIZE__             000000  EA    
+__RODATA_LOAD__           000924  LA    __RODATA_RUN__            000924  LA    
+__RODATA_SIZE__           00014C  EA    __STARTUP_LOAD__          0007FF  LA    
+__STARTUP_RUN__           0007FF  LA    __STARTUP_SIZE__          0000FE  EA    
+buffer_ptr                000067  LZ    copy_dest                 000061 RLZ    
+copy_src                  00005F RLZ    copymem                   0008FD  LA    
+dns_hostname              000063  LZ    eth_packet                000069  LZ    
+tftp_filename             000065  LZ    
+
+
+Imports list:
+-------------
+__CODE_LOAD__ ([linker generated]):
+__CODE_RUN__ ([linker generated]):
+__CODE_SIZE__ ([linker generated]):
+__DATA_LOAD__ ([linker generated]):
+__DATA_RUN__ ([linker generated]):
+__DATA_SIZE__ ([linker generated]):
+__RODATA_LOAD__ ([linker generated]):
+__RODATA_RUN__ ([linker generated]):
+__RODATA_SIZE__ ([linker generated]):
+__STARTUP_LOAD__ ([linker generated]):
+__STARTUP_RUN__ ([linker generated]):
+__STARTUP_SIZE__ ([linker generated]):
+buffer_ptr (generic_zero_page.o):
+copy_dest (generic_zero_page.o):
+    test_httpd.o              ../ip65/copymem.s(6)
+copy_src (generic_zero_page.o):
+    test_httpd.o              ../ip65/copymem.s(5)
+copymem (test_httpd.o):
+dns_hostname (generic_zero_page.o):
+eth_packet (generic_zero_page.o):
+tftp_filename (generic_zero_page.o):
+

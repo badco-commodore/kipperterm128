@@ -1,0 +1,677 @@
+Modules list:
+-------------
+test_wiznet.o:
+    CODE              Offs = 000000   Size = 000480
+    RODATA            Offs = 000000   Size = 0001AE
+    BSS               Offs = 000000   Size = 00000F
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    STARTUP           Offs = 000000   Size = 00000E
+../ip65/ip65_wiznet.lib(copymem.o):
+    CODE              Offs = 000480   Size = 000027
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 00000F   Size = 000001
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(config.o):
+    CODE              Offs = 0004A7   Size = 00001D
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000010   Size = 00001F
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    IP65_DEFAULTS     Offs = 000000   Size = 00001F
+../ip65/ip65_wiznet.lib(timer.o):
+    CODE              Offs = 0004C4   Size = 000018
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 00002F   Size = 000002
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(eth.o):
+    CODE              Offs = 0004DC   Size = 000020
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000031   Size = 000BE0
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(arp.o):
+    CODE              Offs = 0004FC   Size = 000202
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000C11   Size = 000066
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(ip65.o):
+    CODE              Offs = 0006FE   Size = 00005D
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000C77   Size = 000004
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(dhcp.o):
+    CODE              Offs = 00075B   Size = 00028A
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000C7B   Size = 000005
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(dns.o):
+    CODE              Offs = 0009E5   Size = 000271
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000C80   Size = 000093
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(dottedquad.o):
+    CODE              Offs = 000C56   Size = 00005C
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000D13   Size = 000004
+    DATA              Offs = 000000   Size = 000004
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(output_buffer.o):
+    CODE              Offs = 000CB2   Size = 000000
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000D17   Size = 000208
+    DATA              Offs = 000004   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(arithmetic.o):
+    CODE              Offs = 000CB2   Size = 00009D
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000F1F   Size = 000002
+    DATA              Offs = 000004   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(ip.o):
+    CODE              Offs = 000D4F   Size = 00020C
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000F21   Size = 00000C
+    DATA              Offs = 000004   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(icmp.o):
+    CODE              Offs = 000F5B   Size = 000230
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000F2D   Size = 000009
+    DATA              Offs = 000004   Size = 000003
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    TCP_VARS          Offs = 000000   Size = 000008
+../ip65/ip65_wiznet.lib(udp.o):
+    CODE              Offs = 00118B   Size = 000177
+    RODATA            Offs = 0001AE   Size = 000000
+    BSS               Offs = 000F36   Size = 00001F
+    DATA              Offs = 000007   Size = 000003
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../drivers/c64wiznet.lib(w5100.o):
+    CODE              Offs = 001302   Size = 000595
+    RODATA            Offs = 0001AE   Size = 00002F
+    BSS               Offs = 000F55   Size = 000000
+    DATA              Offs = 00000A   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    SELF_MODIFIED_CODE Offs = 000000   Size = 000021
+../drivers/c64wiznet.lib(c64print.o):
+    CODE              Offs = 001897   Size = 000058
+    RODATA            Offs = 0001DD   Size = 000000
+    BSS               Offs = 000F55   Size = 000001
+    DATA              Offs = 00000A   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../drivers/c64wiznet.lib(c64timer.o):
+    CODE              Offs = 0018EF   Size = 00003F
+    RODATA            Offs = 0001DD   Size = 000000
+    BSS               Offs = 000F56   Size = 000000
+    DATA              Offs = 00000A   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../drivers/c64wiznet.lib(c64inputs.o):
+    CODE              Offs = 00192E   Size = 0000DA
+    RODATA            Offs = 0001DD   Size = 000000
+    BSS               Offs = 000F56   Size = 00002D
+    DATA              Offs = 00000A   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../drivers/c64wiznet.lib(petscii_charconv.o):
+    CODE              Offs = 001A08   Size = 00000A
+    RODATA            Offs = 0001DD   Size = 000200
+    BSS               Offs = 000F83   Size = 000000
+    DATA              Offs = 00000A   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../drivers/c64wiznet.lib(generic_zero_page.o):
+    CODE              Offs = 001A12   Size = 000000
+    RODATA            Offs = 0003DD   Size = 000000
+    BSS               Offs = 000F83   Size = 000000
+    DATA              Offs = 00000A   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    IP65ZP            Offs = 000000   Size = 00000C
+
+
+Segment list:
+-------------
+Name                  Start   End     Size
+--------------------------------------------
+NULL                  000000  000000  000000
+ZEROPAGE              000002  000002  000000
+IP65ZP                00005F  00006A  00000C
+STARTUP               0007FF  00080C  00000E
+CODE                  00080D  00221E  001A12
+DATA                  00221F  002228  00000A
+SELF_MODIFIED_CODE    002229  002249  000021
+RODATA                00224A  002626  0003DD
+IP65_DEFAULTS         002627  002645  00001F
+BSS                   002646  0035C8  000F83
+TCP_VARS              0035C9  0035D0  000008
+
+
+Exports list:
+-------------
+__CODE_LOAD__             00080D  LA    __CODE_RUN__              00080D  LA    
+__CODE_SIZE__             001A12  EA    __DATA_LOAD__             00221F  LA    
+__DATA_RUN__              00221F  LA    __DATA_SIZE__             00000A  EA    
+__IP65_DEFAULTS_LOAD__    002627  LA    __IP65_DEFAULTS_RUN__     002627  LA    
+__IP65_DEFAULTS_SIZE__    00001F  EA    __RODATA_LOAD__           00224A  LA    
+__RODATA_RUN__            00224A  LA    __RODATA_SIZE__           0003DD  EA    
+__SELF_MODIFIED_CODE_LOAD__ 002229  LA    __SELF_MODIFIED_CODE_RUN__ 002229  LA    
+__SELF_MODIFIED_CODE_SIZE__ 000021  EA    __STARTUP_LOAD__          0007FF  LA    
+__STARTUP_RUN__           0007FF  LA    __STARTUP_SIZE__          00000E  EA    
+ac_size                   000008  EZ    acc16                     00005F REZ    
+acc32                     00005F  EZ    add_16_32                 001518  LA    
+add_32_32                 0014F9  LA    arp_add                   000E95  LA    
+arp_cache                 003262  LA    arp_calculate_gateway_mask 000D13 RLA    
+arp_init                  000D09 RLA    arp_ip                    00325E RLA    
+arp_lookup                000D38 RLA    arp_mac                   003258 RLA    
+arp_process               000E17 RLA    ascii_to_native           00221A RLA    
+beep                      0020AE  LA    buffer_ptr                000067  LZ    
+cfg_default_drive         002674  LA    cfg_dns                   002668 RLA    
+cfg_gateway               002664 RLA    cfg_get_configuration_ptr 000CB4 RLA    
+cfg_init                  000CBA RLA    cfg_ip                    00265C RLA    
+cfg_mac                   002656 RLA    cfg_mac_default           002627  LA    
+cfg_netmask               002660 RLA    cfg_size                  000020  EA    
+cfg_tftp_server           002670 RLA    check_for_abort_key       00214A RLA    
+cls                       0020A9  LA    cmp_16_16                 0014DB RLA    
+cmp_32_32                 0014BF  LA    copy_dest                 000061 RLZ    
+copy_src                  00005F RLZ    copymem                   000C8D RLA    
+dhcp_init                 000F68 RLA    dhcp_msg                  0022D2  LA    
+dhcp_server               00266C RLA    dhcp_state                0032C1  LA    
+dns_hostname              000063 RLZ    dns_ip                    0032C7 RLA    
+dns_resolve               00126F RLA    dns_server_msg            0022A5  LA    
+dns_set_hostname          0011F2 RLA    dns_status                003354  LA    
+dotted_quad_value         003359 RLA    eth_data                  00000E REZ    
+eth_dest                  000000 REZ    eth_driver_io_base        002411  LA    
+eth_driver_name           0023F8 RLA    eth_init                  001B0F RLA    
+eth_inp                   002679 RLA    eth_inp_len               002677 RLA    
+eth_outp                  002C69 RLA    eth_outp_len              002C67 RLA    
+eth_packet                000069  LZ    eth_proto_arp             000006 REZ    
+eth_proto_ip              000000 REZ    eth_rx                    001BB7 RLA    
+eth_set_broadcast_dest    000CE9 RLA    eth_set_my_mac_src        000CF4 RLA    
+eth_set_proto             000D00 RLA    eth_src                   000006 REZ    
+eth_tx                    001CB8 RLA    eth_type                  00000C  EZ    
+failed_msg                0022E6  LA    filter_dns                0021EE  LA    
+filter_ip                 002209  LA    filter_number             00220A  LA    
+filter_text               0021DF  LA    filter_url                0021E7  LA    
+gateway_msg               002296  LA    get_filtered_input        00215F  LA    
+get_key                   00213B  LA    get_key_if_available      00FFE4  EA    
+get_key_ip65              002141 RLA    icmp_add_listener         001814  LA    
+icmp_callback             003573  LA    icmp_cksum                000002  EZ    
+icmp_code                 000001  EZ    icmp_data                 000004  EZ    
+icmp_echo_ip              0035C9 RLA    icmp_init                 001768 RLA    
+icmp_inp                  00269B  EA    icmp_outp                 002C8B  EA    
+icmp_ping                 0018E5 RLA    icmp_process              00176E RLA    
+icmp_remove_listener      001840  LA    icmp_send_echo            001875  LA    
+icmp_type                 000000  EZ    init_msg                  0022D7  LA    
+ip65_ctr                  0032BD  LA    ip65_ctr_arp              0032BE  LA    
+ip65_ctr_ip               0032BF  LA    ip65_error                0032C0 RLA    
+ip65_init                 000F2D  LA    ip65_process              000F46 RLA    
+ip65_random_word          000F0B  LA    ip_address_msg            002278  LA    
+ip_broadcast              00356B RLA    ip_calc_cksum             0016C4 RLA    
+ip_cksum_ptr              000061 REZ    ip_create_packet          001630 RLA    
+ip_data                   000014 REZ    ip_dest                   000010 REZ    
+ip_frag                   000006  EZ    ip_header_cksum           00000A REZ    
+ip_id                     000004 REZ    ip_init                   00155C RLA    
+ip_inp                    002687 REA    ip_len                    000002 REZ    
+ip_outp                   002C77 REA    ip_process                001571 RLA    
+ip_proto                  000009 REZ    ip_proto_icmp             000001 REZ    
+ip_proto_tcp              000006  EZ    ip_proto_udp              000011 REZ    
+ip_send                   00165D RLA    ip_src                    00000C REZ    
+ip_tos                    000001  EZ    ip_ttl                    000008  EZ    
+ip_ver_ihl                000000  EZ    mac_address_msg           002269  LA    
+mul_8_16                  001534  LA    native_to_ascii           002215  LA    
+netmask_msg               002287  LA    ok_msg                    0022ED  LA    
+op32                      000061  EZ    output_buffer             00335D RLA    
+parse_dotted_quad         001463 RLA    press_a_key_to_continue   00230F  LA    
+print                     0008A9  LA    print_a                   00FFD2 REA    
+print_a_inverse           0020ED  LA    print_ascii_as_native     0008BF  LA    
+print_cr                  0020A4 RLA    print_dotted_quad         0008D8  LA    
+print_errorcode           0009A5  LA    print_hex                 00098C  LA    
+print_integer             000915  LA    print_ip_config           00080D  LA    
+screen_current_col        0000EC  EZ    screen_current_row        0000EB  EZ    
+sub_16_16                 0014E3  LA    tcp_callback              00223E RLA    
+tcp_close                 001F15 RLA    tcp_connect               001DC4 RLA    
+tcp_connect_ip            00223A RLA    tcp_connect_remote_port   002248 RLA    
+tcp_inbound_data_length   002244 RLA    tcp_inbound_data_ptr      002246 RLA    
+tcp_listen                001D6A RLA    tcp_remote_ip             00223A REA    
+tcp_send                  001E50  LA    tcp_send_data_len         002242  LA    
+tcp_send_keep_alive       001EF8  LA    tcp_send_string           001E28 RLA    
+tcp_state                 002239  LA    tftp_filename             000065  LZ    
+tftp_server_msg           0022C3  LA    timer_init                0020FC RLA    
+timer_read                00212F RLA    timer_seconds             00212B  LA    
+timer_timeout             000CD1 RLA    udp_add_listener          0019CB RLA    
+udp_callback              00357C RLA    udp_cksum                 000006  EZ    
+udp_data                  000008 REZ    udp_dest_port             000002  EZ    
+udp_init                  001998 RLA    udp_inp                   00269B REA    
+udp_len                   000004  EZ    udp_outp                  002C8B  EA    
+udp_process               00199E RLA    udp_remove_listener       001A12 RLA    
+udp_send                  001A5E RLA    udp_send_dest             00357E RLA    
+udp_send_dest_port        003584 RLA    udp_send_len              003586 RLA    
+udp_send_src_port         003582 RLA    udp_src_port              000000  EZ    
+w5100_ip65_init           001B9E RLA    w5100_read_register       001D5B RLA    
+w5100_select_register     002419  LA    w5100_set_ip_config       002040  LA    
+w5100_write_register      001D62  LA    
+
+
+Imports list:
+-------------
+__CODE_LOAD__ ([linker generated]):
+__CODE_RUN__ ([linker generated]):
+__CODE_SIZE__ ([linker generated]):
+__DATA_LOAD__ ([linker generated]):
+__DATA_RUN__ ([linker generated]):
+__DATA_SIZE__ ([linker generated]):
+__IP65_DEFAULTS_LOAD__ ([linker generated]):
+__IP65_DEFAULTS_RUN__ ([linker generated]):
+__IP65_DEFAULTS_SIZE__ ([linker generated]):
+__RODATA_LOAD__ ([linker generated]):
+__RODATA_RUN__ ([linker generated]):
+__RODATA_SIZE__ ([linker generated]):
+__SELF_MODIFIED_CODE_LOAD__ ([linker generated]):
+__SELF_MODIFIED_CODE_RUN__ ([linker generated]):
+__SELF_MODIFIED_CODE_SIZE__ ([linker generated]):
+__STARTUP_LOAD__ ([linker generated]):
+__STARTUP_RUN__ ([linker generated]):
+__STARTUP_SIZE__ ([linker generated]):
+ac_size (arp.o):
+acc16 (arithmetic.o):
+    test_wiznet.o             test_wiznet.s(32)
+acc32 (arithmetic.o):
+add_16_32 (arithmetic.o):
+add_32_32 (arithmetic.o):
+arp_add (arp.o):
+arp_cache (arp.o):
+arp_calculate_gateway_mask (arp.o):
+    dhcp.o                    dhcp.s(29)
+arp_init (arp.o):
+    w5100.o                   w5100.s(35)
+    ip65.o                    ip65.s(23)
+arp_ip (arp.o):
+    ip.o                      ip.s(47)
+arp_lookup (arp.o):
+    ip.o                      ip.s(45)
+arp_mac (arp.o):
+    ip.o                      ip.s(46)
+arp_process (arp.o):
+    ip65.o                    ip65.s(32)
+ascii_to_native (petscii_charconv.o):
+    test_wiznet.o             ../inc/commonprint.i(31)
+beep (c64print.o):
+buffer_ptr (generic_zero_page.o):
+cfg_default_drive (config.o):
+cfg_dns (config.o):
+    dns.o                     dns.s(16)
+    dhcp.o                    dhcp.s(27)
+cfg_gateway (config.o):
+    w5100.o                   w5100.s(72)
+    arp.o                     arp.s(28)
+    dhcp.o                    dhcp.s(26)
+    test_wiznet.o             ../inc/net.i(7)
+cfg_get_configuration_ptr (config.o):
+    test_wiznet.o             ../inc/commonprint.i(109)
+cfg_init (config.o):
+    w5100.o                   w5100.s(37)
+    ip65.o                    ip65.s(19)
+cfg_ip (config.o):
+    w5100.o                   w5100.s(70)
+    arp.o                     arp.s(26)
+    udp.o                     udp.s(54)
+    ip.o                      ip.s(29)
+    dhcp.o                    dhcp.s(24)
+cfg_mac (config.o):
+    w5100.o                   w5100.s(69)
+    arp.o                     arp.s(25)
+    eth.o                     eth.s(21)
+    ip.o                      ip.s(28)
+    dhcp.o                    dhcp.s(23)
+cfg_mac_default (config.o):
+cfg_netmask (config.o):
+    w5100.o                   w5100.s(71)
+    arp.o                     arp.s(27)
+    dhcp.o                    dhcp.s(25)
+cfg_size (config.o):
+cfg_tftp_server (config.o):
+    test_wiznet.o             ../inc/commonprint.i(37)
+check_for_abort_key (c64inputs.o):
+    w5100.o                   w5100.s(76)
+    dns.o                     dns.s(37)
+    dhcp.o                    dhcp.s(49)
+cls (c64print.o):
+cmp_16_16 (arithmetic.o):
+    test_wiznet.o             test_wiznet.s(33)
+cmp_32_32 (arithmetic.o):
+copy_dest (generic_zero_page.o):
+    w5100.o                   w5100.s(44)
+    copymem.o                 copymem.s(6)
+    udp.o                     udp.s(52)
+    ip.o                      ip.s(60)
+    arithmetic.o              arithmetic.s(7)
+    config.o                  config.s(21)
+copy_src (generic_zero_page.o):
+    c64inputs.o               c64inputs.s(11)
+    w5100.o                   w5100.s(43)
+    arp.o                     arp.s(33)
+    copymem.o                 copymem.s(5)
+    udp.o                     udp.s(51)
+    ip.o                      ip.s(59)
+    arithmetic.o              arithmetic.s(6)
+    config.o                  config.s(20)
+    test_wiznet.o             ../inc/commonprint.i(36)
+copymem (copymem.o):
+    udp.o                     udp.s(50)
+    config.o                  config.s(19)
+dhcp_init (dhcp.o):
+    test_wiznet.o             ../inc/net.i(11)
+dhcp_msg (test_wiznet.o):
+dhcp_server (config.o):
+    dhcp.o                    dhcp.s(19)
+    test_wiznet.o             ../inc/net.i(12)
+dhcp_state (dhcp.o):
+dns_hostname (generic_zero_page.o):
+    dns.o                     dns.s(40)
+dns_ip (dns.o):
+    test_wiznet.o             test_wiznet.s(19)
+dns_resolve (dns.o):
+    test_wiznet.o             test_wiznet.s(18)
+dns_server_msg (test_wiznet.o):
+dns_set_hostname (dns.o):
+    test_wiznet.o             test_wiznet.s(17)
+dns_status (dns.o):
+dotted_quad_value (dottedquad.o):
+    dns.o                     dns.s(19)
+eth_data (eth.o):
+    ip.o                      ip.s(41)
+eth_dest (eth.o):
+    ip.o                      ip.s(38)
+eth_driver_io_base (w5100.o):
+eth_driver_name (w5100.o):
+    test_wiznet.o             ../inc/commonprint.i(34)
+eth_init (w5100.o):
+    ip65.o                    ip65.s(21)
+eth_inp (eth.o):
+    w5100.o                   w5100.s(27)
+    arp.o                     arp.s(15)
+    icmp.o                    icmp.s(52)
+    ip.o                      ip.s(33)
+    ip65.o                    ip65.s(27)
+eth_inp_len (eth.o):
+    w5100.o                   w5100.s(28)
+    icmp.o                    icmp.s(53)
+    ip.o                      ip.s(34)
+eth_outp (eth.o):
+    w5100.o                   w5100.s(29)
+    arp.o                     arp.s(17)
+    icmp.o                    icmp.s(54)
+    ip.o                      ip.s(35)
+    ip65.o                    ip65.s(28)
+eth_outp_len (eth.o):
+    w5100.o                   w5100.s(30)
+    arp.o                     arp.s(18)
+    icmp.o                    icmp.s(55)
+    ip.o                      ip.s(36)
+eth_packet (generic_zero_page.o):
+eth_proto_arp (eth.o):
+    arp.o                     arp.s(23)
+    ip65.o                    ip65.s(34)
+eth_proto_ip (eth.o):
+    ip.o                      ip.s(42)
+eth_rx (w5100.o):
+    ip65.o                    ip65.s(29)
+eth_set_broadcast_dest (eth.o):
+    arp.o                     arp.s(20)
+eth_set_my_mac_src (eth.o):
+    arp.o                     arp.s(21)
+eth_set_proto (eth.o):
+    arp.o                     arp.s(22)
+    ip.o                      ip.s(32)
+eth_src (eth.o):
+    ip.o                      ip.s(39)
+eth_tx (w5100.o):
+    arp.o                     arp.s(19)
+    icmp.o                    icmp.s(51)
+    ip.o                      ip.s(31)
+eth_type (eth.o):
+failed_msg (test_wiznet.o):
+filter_dns (c64inputs.o):
+filter_ip (c64inputs.o):
+filter_number (c64inputs.o):
+filter_text (c64inputs.o):
+filter_url (c64inputs.o):
+gateway_msg (test_wiznet.o):
+get_filtered_input (c64inputs.o):
+get_key (c64inputs.o):
+get_key_if_available (c64inputs.o):
+get_key_ip65 (c64inputs.o):
+    test_wiznet.o             test_wiznet.s(14)
+icmp_add_listener (icmp.o):
+icmp_callback (icmp.o):
+icmp_cksum (icmp.o):
+icmp_code (icmp.o):
+icmp_data (icmp.o):
+icmp_echo_ip (icmp.o):
+    test_wiznet.o             test_wiznet.s(12)
+icmp_init (icmp.o):
+    ip.o                      ip.s(49)
+icmp_inp (icmp.o):
+icmp_outp (icmp.o):
+icmp_ping (icmp.o):
+    test_wiznet.o             test_wiznet.s(13)
+icmp_process (icmp.o):
+    ip.o                      ip.s(50)
+icmp_remove_listener (icmp.o):
+icmp_send_echo (icmp.o):
+icmp_type (icmp.o):
+init_msg (test_wiznet.o):
+ip65_ctr (ip65.o):
+ip65_ctr_arp (ip65.o):
+ip65_ctr_ip (ip65.o):
+ip65_error (ip65.o):
+    w5100.o                   w5100.s(74)
+    udp.o                     udp.s(11)
+    icmp.o                    icmp.s(33)
+    dns.o                     dns.s(15)
+    dhcp.o                    dhcp.s(22)
+    test_wiznet.o             ../inc/commonprint.i(27)
+ip65_init (ip65.o):
+ip65_process (ip65.o):
+    c64inputs.o               c64inputs.s(13)
+    w5100.o                   w5100.s(75)
+    icmp.o                    icmp.s(32)
+    dns.o                     dns.s(21)
+    dhcp.o                    dhcp.s(31)
+    test_wiznet.o             ../inc/net.i(2)
+ip65_random_word (ip65.o):
+ip_address_msg (test_wiznet.o):
+ip_broadcast (ip.o):
+    icmp.o                    icmp.s(38)
+ip_calc_cksum (ip.o):
+    udp.o                     udp.s(35)
+    icmp.o                    icmp.s(35)
+ip_cksum_ptr (ip.o):
+    udp.o                     udp.s(40)
+    icmp.o                    icmp.s(44)
+ip_create_packet (ip.o):
+    udp.o                     udp.s(37)
+    icmp.o                    icmp.s(40)
+ip_data (ip.o):
+    udp.o                     udp.s(44)
+    icmp.o                    icmp.s(48)
+ip_dest (ip.o):
+    udp.o                     udp.s(43)
+    icmp.o                    icmp.s(47)
+ip_frag (ip.o):
+ip_header_cksum (ip.o):
+    icmp.o                    icmp.s(45)
+ip_id (ip.o):
+    udp.o                     udp.s(47)
+ip_init (ip.o):
+    w5100.o                   w5100.s(36)
+    ip65.o                    ip65.s(24)
+ip_inp (ip.o):
+    w5100.o                   w5100.s(871)
+    udp.o                     udp.s(38)
+    icmp.o                    icmp.s(36)
+ip_len (ip.o):
+    udp.o                     udp.s(48)
+    icmp.o                    icmp.s(49)
+ip_outp (ip.o):
+    udp.o                     udp.s(39)
+    icmp.o                    icmp.s(37)
+ip_process (ip.o):
+    ip65.o                    ip65.s(31)
+ip_proto (ip.o):
+    udp.o                     udp.s(45)
+    icmp.o                    icmp.s(41)
+ip_proto_icmp (ip.o):
+    icmp.o                    icmp.s(42)
+ip_proto_tcp (ip.o):
+ip_proto_udp (ip.o):
+    udp.o                     udp.s(46)
+ip_send (ip.o):
+    udp.o                     udp.s(36)
+    icmp.o                    icmp.s(39)
+ip_src (ip.o):
+    icmp.o                    icmp.s(46)
+ip_tos (ip.o):
+ip_ttl (ip.o):
+ip_ver_ihl (ip.o):
+mac_address_msg (test_wiznet.o):
+mul_8_16 (arithmetic.o):
+native_to_ascii (petscii_charconv.o):
+netmask_msg (test_wiznet.o):
+ok_msg (test_wiznet.o):
+op32 (arithmetic.o):
+output_buffer (output_buffer.o):
+    dns.o                     dns.s(30)
+    dhcp.o                    dhcp.s(43)
+parse_dotted_quad (dottedquad.o):
+    dns.o                     dns.s(18)
+press_a_key_to_continue (test_wiznet.o):
+print (test_wiznet.o):
+print_a (c64print.o):
+    test_wiznet.o             ../inc/commonprint.i(95)
+print_a_inverse (c64print.o):
+print_ascii_as_native (test_wiznet.o):
+print_cr (c64print.o):
+    test_wiznet.o             ../inc/commonprint.i(96)
+print_dotted_quad (test_wiznet.o):
+print_errorcode (test_wiznet.o):
+print_hex (test_wiznet.o):
+print_integer (test_wiznet.o):
+print_ip_config (test_wiznet.o):
+screen_current_col (c64print.o):
+screen_current_row (c64print.o):
+sub_16_16 (arithmetic.o):
+tcp_callback (w5100.o):
+    test_wiznet.o             test_wiznet.s(24)
+tcp_close (w5100.o):
+    test_wiznet.o             test_wiznet.s(26)
+tcp_connect (w5100.o):
+    test_wiznet.o             test_wiznet.s(22)
+tcp_connect_ip (w5100.o):
+    test_wiznet.o             test_wiznet.s(23)
+tcp_connect_remote_port (w5100.o):
+    test_wiznet.o             test_wiznet.s(29)
+tcp_inbound_data_length (w5100.o):
+    test_wiznet.o             test_wiznet.s(28)
+tcp_inbound_data_ptr (w5100.o):
+    test_wiznet.o             test_wiznet.s(27)
+tcp_listen (w5100.o):
+    test_wiznet.o             test_wiznet.s(31)
+tcp_remote_ip (w5100.o):
+    test_wiznet.o             test_wiznet.s(30)
+tcp_send (w5100.o):
+tcp_send_data_len (w5100.o):
+tcp_send_keep_alive (w5100.o):
+tcp_send_string (w5100.o):
+    test_wiznet.o             test_wiznet.s(25)
+tcp_state (w5100.o):
+tftp_filename (generic_zero_page.o):
+tftp_server_msg (test_wiznet.o):
+timer_init (c64timer.o):
+    w5100.o                   w5100.s(32)
+    ip65.o                    ip65.s(22)
+timer_read (c64timer.o):
+    w5100.o                   w5100.s(33)
+    arp.o                     arp.s(30)
+    timer.o                   timer.s(13)
+    icmp.o                    icmp.s(56)
+    dns.o                     dns.s(38)
+    dhcp.o                    dhcp.s(50)
+    ip65.o                    ip65.s(25)
+timer_seconds (c64timer.o):
+timer_timeout (timer.o):
+    arp.o                     arp.s(31)
+    icmp.o                    icmp.s(57)
+udp_add_listener (udp.o):
+    dns.o                     dns.s(23)
+    dhcp.o                    dhcp.s(33)
+udp_callback (udp.o):
+    dns.o                     dns.s(26)
+    dhcp.o                    dhcp.s(36)
+udp_cksum (udp.o):
+udp_data (udp.o):
+    dns.o                     dns.s(31)
+    dhcp.o                    dhcp.s(41)
+udp_dest_port (udp.o):
+udp_init (udp.o):
+    ip.o                      ip.s(52)
+udp_inp (udp.o):
+    w5100.o                   w5100.s(872)
+    dns.o                     dns.s(29)
+    dhcp.o                    dhcp.s(39)
+udp_len (udp.o):
+udp_outp (udp.o):
+udp_process (udp.o):
+    ip.o                      ip.s(53)
+udp_remove_listener (udp.o):
+    dns.o                     dns.s(24)
+    dhcp.o                    dhcp.s(34)
+udp_send (udp.o):
+    dns.o                     dns.s(27)
+    dhcp.o                    dhcp.s(37)
+udp_send_dest (udp.o):
+    dns.o                     dns.s(33)
+    dhcp.o                    dhcp.s(45)
+udp_send_dest_port (udp.o):
+    dns.o                     dns.s(35)
+    dhcp.o                    dhcp.s(47)
+udp_send_len (udp.o):
+    dns.o                     dns.s(36)
+    dhcp.o                    dhcp.s(48)
+udp_send_src_port (udp.o):
+    dns.o                     dns.s(34)
+    dhcp.o                    dhcp.s(46)
+udp_src_port (udp.o):
+w5100_ip65_init (w5100.o):
+    test_wiznet.o             test_wiznet.s(15)
+w5100_read_register (w5100.o):
+    test_wiznet.o             test_wiznet.s(16)
+w5100_select_register (w5100.o):
+w5100_set_ip_config (w5100.o):
+w5100_write_register (w5100.o):
+

@@ -1,0 +1,71 @@
+Modules list:
+-------------
+webnoter.o:
+    CODE              Offs = 000000   Size = 000000
+    RODATA            Offs = 000000   Size = 000000
+    BSS               Offs = 000000   Size = 000000
+    DATA              Offs = 000000   Size = 001F42
+    ZEROPAGE          Offs = 000000   Size = 000004
+    NULL              Offs = 000000   Size = 000000
+    STARTUP           Offs = 000000   Size = 00049A
+    DATA6K            Offs = 000000   Size = 000386
+    BSS4K             Offs = 000000   Size = 001E89
+
+
+Segment list:
+-------------
+Name                  Start   End     Size
+--------------------------------------------
+NULL                  000000  000000  000000
+ZEROPAGE              000002  000005  000004
+STARTUP               0007FF  000C98  00049A
+CODE                  000C99  000C99  000000
+DATA                  000C99  002BDA  001F42
+BSS                   002BDB  002BDB  000000
+RODATA                002BDB  002BDB  000000
+BSS4K                 004000  005E88  001E89
+DATA6K                006000  006385  000386
+
+
+Exports list:
+-------------
+__CODE_LOAD__             000C99  LA    __CODE_RUN__              000C99  LA    
+__CODE_SIZE__             000000  EA    __DATA6K_LOAD__           002BDB RLA    
+__DATA6K_RUN__            006000 RLA    __DATA6K_SIZE__           000386 REA    
+__DATA_LOAD__             000C99  LA    __DATA_RUN__              000C99  LA    
+__DATA_SIZE__             001F42  EA    __RODATA_LOAD__           002BDB  LA    
+__RODATA_RUN__            002BDB  LA    __RODATA_SIZE__           000000  EA    
+__STARTUP_LOAD__          0007FF  LA    __STARTUP_RUN__           0007FF  LA    
+__STARTUP_SIZE__          00049A  EA    html                      006109  LA    
+musicdata                 001D28  LA    musicdata_size            000EB3  EA    
+scroll_template_1         0062DC  LA    scroll_template_2         00630A  LA    
+sprite_font               001528  LA    
+
+
+Imports list:
+-------------
+__CODE_LOAD__ ([linker generated]):
+__CODE_RUN__ ([linker generated]):
+__CODE_SIZE__ ([linker generated]):
+__DATA6K_LOAD__ ([linker generated]):
+    webnoter.o                webnoter.s(19)
+__DATA6K_RUN__ ([linker generated]):
+    webnoter.o                webnoter.s(20)
+__DATA6K_SIZE__ ([linker generated]):
+    webnoter.o                webnoter.s(21)
+__DATA_LOAD__ ([linker generated]):
+__DATA_RUN__ ([linker generated]):
+__DATA_SIZE__ ([linker generated]):
+__RODATA_LOAD__ ([linker generated]):
+__RODATA_RUN__ ([linker generated]):
+__RODATA_SIZE__ ([linker generated]):
+__STARTUP_LOAD__ ([linker generated]):
+__STARTUP_RUN__ ([linker generated]):
+__STARTUP_SIZE__ ([linker generated]):
+html (webnoter.o):
+musicdata (webnoter.o):
+musicdata_size (webnoter.o):
+scroll_template_1 (webnoter.o):
+scroll_template_2 (webnoter.o):
+sprite_font (webnoter.o):
+

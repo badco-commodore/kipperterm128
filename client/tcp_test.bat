@@ -1,0 +1,1 @@
+start c:\temp\WinVICE-2.1\x64.exe -cart16 carts\kipperkart.bin 

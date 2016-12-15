@@ -1,0 +1,903 @@
+Modules list:
+-------------
+kipperterm2.o:
+    CODE              Offs = 000000   Size = 000F30
+    RODATA            Offs = 000000   Size = 000528
+    BSS               Offs = 000000   Size = 00001C
+    DATA              Offs = 000000   Size = 00000D
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    IP65ZP            Offs = 000000   Size = 000002
+    APP_SCRATCH       Offs = 000000   Size = 001DEE
+    STARTUP           Offs = 000000   Size = 00000F
+    FONT_TABLE        Offs = 000000   Size = 000800
+    CARTRIDGE_HEADER  Offs = 000000   Size = 000011
+../ip65/ip65_wiznet.lib(copymem.o):
+    CODE              Offs = 000F30   Size = 000027
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 00001C   Size = 000001
+    DATA              Offs = 00000D   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(config.o):
+    CODE              Offs = 000F57   Size = 00001D
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 00001D   Size = 00001F
+    DATA              Offs = 00000D   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    IP65_DEFAULTS     Offs = 000000   Size = 00001F
+../ip65/ip65_wiznet.lib(timer.o):
+    CODE              Offs = 000F74   Size = 000018
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 00003C   Size = 000002
+    DATA              Offs = 00000D   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(eth.o):
+    CODE              Offs = 000F8C   Size = 000020
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 00003E   Size = 000BE0
+    DATA              Offs = 00000D   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(arp.o):
+    CODE              Offs = 000FAC   Size = 000202
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 000C1E   Size = 000066
+    DATA              Offs = 00000D   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(ip65.o):
+    CODE              Offs = 0011AE   Size = 00005D
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 000C84   Size = 000004
+    DATA              Offs = 00000D   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(dhcp.o):
+    CODE              Offs = 00120B   Size = 00028A
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 000C88   Size = 000005
+    DATA              Offs = 00000D   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(dns.o):
+    CODE              Offs = 001495   Size = 000271
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 000C8D   Size = 000093
+    DATA              Offs = 00000D   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(dottedquad.o):
+    CODE              Offs = 001706   Size = 00005C
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 000D20   Size = 000004
+    DATA              Offs = 00000D   Size = 000004
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(output_buffer.o):
+    CODE              Offs = 001762   Size = 000000
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 000D24   Size = 000208
+    DATA              Offs = 000011   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(parser.o):
+    CODE              Offs = 001762   Size = 000050
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 000F2C   Size = 000002
+    DATA              Offs = 000011   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    SELF_MODIFIED_CODE Offs = 000000   Size = 00000E
+../ip65/ip65_wiznet.lib(string_utils.o):
+    CODE              Offs = 0017B2   Size = 00006F
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 000F2E   Size = 000002
+    DATA              Offs = 000011   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(telnet.o):
+    CODE              Offs = 001821   Size = 0002B8
+    RODATA            Offs = 000528   Size = 000000
+    BSS               Offs = 000F30   Size = 000000
+    DATA              Offs = 000011   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    APP_SCRATCH       Offs = 001DEE   Size = 0000BA
+../ip65/ip65_wiznet.lib(xmodem.o):
+    CODE              Offs = 001AD9   Size = 000379
+    RODATA            Offs = 000528   Size = 00009C
+    BSS               Offs = 000F30   Size = 000006
+    DATA              Offs = 000011   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    SELF_MODIFIED_CODE Offs = 00000E   Size = 000052
+    APP_SCRATCH       Offs = 001EA8   Size = 000777
+../ip65/ip65_wiznet.lib(url.o):
+    CODE              Offs = 001E52   Size = 000278
+    RODATA            Offs = 0005C4   Size = 000045
+    BSS               Offs = 000F36   Size = 000000
+    DATA              Offs = 000011   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    TCP_VARS          Offs = 000000   Size = 000018
+../ip65/ip65_wiznet.lib(arithmetic.o):
+    CODE              Offs = 0020CA   Size = 00009D
+    RODATA            Offs = 000609   Size = 000000
+    BSS               Offs = 000F36   Size = 000002
+    DATA              Offs = 000011   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(ip.o):
+    CODE              Offs = 002167   Size = 00020C
+    RODATA            Offs = 000609   Size = 000000
+    BSS               Offs = 000F38   Size = 00000C
+    DATA              Offs = 000011   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../ip65/ip65_wiznet.lib(icmp.o):
+    CODE              Offs = 002373   Size = 000230
+    RODATA            Offs = 000609   Size = 000000
+    BSS               Offs = 000F44   Size = 000009
+    DATA              Offs = 000011   Size = 000003
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    TCP_VARS          Offs = 000018   Size = 000008
+../ip65/ip65_wiznet.lib(udp.o):
+    CODE              Offs = 0025A3   Size = 000177
+    RODATA            Offs = 000609   Size = 000000
+    BSS               Offs = 000F4D   Size = 00001F
+    DATA              Offs = 000014   Size = 000003
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../drivers/c64wiznet.lib(w5100.o):
+    CODE              Offs = 00271A   Size = 000595
+    RODATA            Offs = 000609   Size = 00002F
+    BSS               Offs = 000F6C   Size = 000000
+    DATA              Offs = 000017   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    SELF_MODIFIED_CODE Offs = 000060   Size = 000021
+../drivers/c64wiznet.lib(c64print.o):
+    CODE              Offs = 002CAF   Size = 000058
+    RODATA            Offs = 000638   Size = 000000
+    BSS               Offs = 000F6C   Size = 000001
+    DATA              Offs = 000017   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../drivers/c64wiznet.lib(c64timer.o):
+    CODE              Offs = 002D07   Size = 00003F
+    RODATA            Offs = 000638   Size = 000000
+    BSS               Offs = 000F6D   Size = 000000
+    DATA              Offs = 000017   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../drivers/c64wiznet.lib(c64inputs.o):
+    CODE              Offs = 002D46   Size = 0000DA
+    RODATA            Offs = 000638   Size = 000000
+    BSS               Offs = 000F6D   Size = 00002D
+    DATA              Offs = 000017   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../drivers/c64wiznet.lib(cbm_disk_access.o):
+    CODE              Offs = 002E20   Size = 00036B
+    RODATA            Offs = 000638   Size = 000008
+    BSS               Offs = 000F9A   Size = 000000
+    DATA              Offs = 000017   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    SELF_MODIFIED_CODE Offs = 000081   Size = 00001E
+../drivers/c64wiznet.lib(petscii_charconv.o):
+    CODE              Offs = 00318B   Size = 00000A
+    RODATA            Offs = 000640   Size = 000200
+    BSS               Offs = 000F9A   Size = 000000
+    DATA              Offs = 000017   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+../drivers/c64wiznet.lib(c64_vt100.o):
+    CODE              Offs = 003195   Size = 000634
+    RODATA            Offs = 000840   Size = 000649
+    BSS               Offs = 000F9A   Size = 000000
+    DATA              Offs = 000017   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000015
+    NULL              Offs = 000000   Size = 000000
+    APP_SCRATCH       Offs = 00261F   Size = 000100
+../drivers/c64wiznet.lib(generic_zero_page.o):
+    CODE              Offs = 0037C9   Size = 000000
+    RODATA            Offs = 000E89   Size = 000000
+    BSS               Offs = 000F9A   Size = 000000
+    DATA              Offs = 000017   Size = 000000
+    ZEROPAGE          Offs = 000015   Size = 000000
+    NULL              Offs = 000000   Size = 000000
+    IP65ZP            Offs = 000002   Size = 00000C
+
+
+Segment list:
+-------------
+Name                  Start   End     Size
+--------------------------------------------
+NULL                  000000  000000  000000
+ZEROPAGE              000007  00001B  000015
+IP65ZP                000061  00006E  00000E
+STARTUP               001BFF  001C0D  00000F
+CODE                  001C0E  0053D6  0037C9
+SELF_MODIFIED_CODE    0053D7  005475  00009F
+RODATA                005476  0062FE  000E89
+CARTRIDGE_HEADER      0062FF  00630F  000011
+IP65_DEFAULTS         006310  00632E  00001F
+DATA                  00632F  006345  000017
+FONT_TABLE            006346  006B45  000800
+BSS                   006B46  007ADF  000F9A
+APP_SCRATCH           007AE0  00A1FE  00271F
+TCP_VARS              00A1FF  00A21E  000020
+
+
+Exports list:
+-------------
+KEYCODE_ABORT             000003  EZ    KEYCODE_F1                000085 REZ    
+__CODE_LOAD__             001C0E  LA    __CODE_RUN__              001C0E  LA    
+__CODE_SIZE__             0037C9  EA    __DATA_LOAD__             00632F  LA    
+__DATA_RUN__              00632F  LA    __DATA_SIZE__             000017  EA    
+__IP65_DEFAULTS_LOAD__    006310  LA    __IP65_DEFAULTS_RUN__     006310  LA    
+__IP65_DEFAULTS_SIZE__    00001F  EA    __RODATA_LOAD__           005476  LA    
+__RODATA_RUN__            005476  LA    __RODATA_SIZE__           000E89  EA    
+__SELF_MODIFIED_CODE_LOAD__ 0053D7  LA    __SELF_MODIFIED_CODE_RUN__ 0053D7  LA    
+__SELF_MODIFIED_CODE_SIZE__ 00009F  EA    __STARTUP_LOAD__          001BFF  LA    
+__STARTUP_RUN__           001BFF  LA    __STARTUP_SIZE__          00000F  EA    
+ac_size                   000008  EZ    acc16                     000063 REZ    
+acc32                     000063  EZ    add_16_32                 003D31  LA    
+add_32_32                 003D12  LA    arp_add                   002D46  LA    
+arp_cache                 00776F  LA    arp_calculate_gateway_mask 002BC4 RLA    
+arp_init                  002BBA RLA    arp_ip                    00776B RLA    
+arp_lookup                002BE9 RLA    arp_mac                   007765 RLA    
+arp_process               002CC8 RLA    ascii_to_native           004D9E RLA    
+beep                      0048C7 RLA    buffer_ptr                00006B RLZ    
+cfg_default_drive         006B81 RLA    cfg_dns                   006B75 RLA    
+cfg_gateway               006B71 RLA    cfg_get_configuration_ptr 002B65  LA    
+cfg_init                  002B6B RLA    cfg_ip                    006B69 RLA    
+cfg_mac                   006B63 RLA    cfg_mac_default           006310  LA    
+cfg_netmask               006B6D RLA    cfg_size                  000020  EA    
+cfg_tftp_server           006B7D RLA    check_for_abort_key       004963 RLA    
+cls                       0048C2 RLA    cmp_16_16                 003CF4  LA    
+cmp_32_32                 003CD8  LA    copy_dest                 000065 RLZ    
+copy_src                  000063 RLZ    copymem                   002B3E RLA    
+dhcp_init                 002E19 RLA    dhcp_msg                  0054FE  LA    
+dhcp_server               006B79 RLA    dhcp_state                0077CE  LA    
+dns_hostname              000067 RLZ    dns_ip                    0077D4 RLA    
+dns_resolve               003120 RLA    dns_server_msg            0054D1  LA    
+dns_set_hostname          0030A3 RLA    dns_status                007861  LA    
+dotted_quad_value         007866 RLA    eth_data                  00000E REZ    
+eth_dest                  000000 REZ    eth_driver_io_base        005A98 RLA    
+eth_driver_name           005A7F RLA    eth_init                  004328 RLA    
+eth_inp                   006B86 RLA    eth_inp_len               006B84 RLA    
+eth_outp                  007176 RLA    eth_outp_len              007174 RLA    
+eth_packet                00006D  LZ    eth_proto_arp             000006 REZ    
+eth_proto_ip              000000 REZ    eth_rx                    0043D0 RLA    
+eth_set_broadcast_dest    002B9A RLA    eth_set_my_mac_src        002BA5 RLA    
+eth_set_proto             002BB1 RLA    eth_src                   000006 REZ    
+eth_tx                    0044D1 RLA    eth_type                  00000C  EZ    
+failed_msg                005512 RLA    filter_dns                004A07 RLA    
+filter_ip                 004A22 RLA    filter_number             004A23 RLA    
+filter_text               0049F8 RLA    filter_url                004A00  LA    
+gateway_msg               0054C2  LA    get_filtered_input        004978 RLA    
+get_key                   004954  LA    get_key_if_available      00FFE4 REA    
+get_key_ip65              00495A RLA    icmp_add_listener         00402D  LA    
+icmp_callback             007A8A  LA    icmp_cksum                000002  EZ    
+icmp_code                 000001  EZ    icmp_data                 000004  EZ    
+icmp_echo_ip              00A217  LA    icmp_init                 003F81 RLA    
+icmp_inp                  006BA8  EA    icmp_outp                 007198  EA    
+icmp_ping                 0040FE  LA    icmp_process              003F87 RLA    
+icmp_remove_listener      004059  LA    icmp_send_echo            00408E  LA    
+icmp_type                 000000  EZ    init_msg                  005503  LA    
+io_callback               005468  EA    io_device_no              00545B RLA    
+io_error_buffer           00796A REA    io_filename               00545C RLA    
+io_filesize               00545E RLA    io_load_address           005460  LA    
+io_read_catalogue         004B3E RLA    io_read_catalogue_ex      004B34  LA    
+io_read_file              004A2E RLA    io_read_file_with_callback 004A9C  LA    
+io_read_sector            004C75  LA    io_sector_no              00545A  LA    
+io_track_no               005458  LA    io_write_sector           004BCD  LA    
+ip65_ctr                  0077CA  LA    ip65_ctr_arp              0077CB  LA    
+ip65_ctr_ip               0077CC  LA    ip65_error                0077CD RLA    
+ip65_init                 002DDE RLA    ip65_process              002DF7 RLA    
+ip65_random_word          002DBC  LA    ip_address_msg            0054A4  LA    
+ip_broadcast              007A82 RLA    ip_calc_cksum             003EDD RLA    
+ip_cksum_ptr              000065 REZ    ip_create_packet          003E49 RLA    
+ip_data                   000014 REZ    ip_dest                   000010 REZ    
+ip_frag                   000006  EZ    ip_header_cksum           00000A REZ    
+ip_id                     000004 REZ    ip_init                   003D75 RLA    
+ip_inp                    006B94 REA    ip_len                    000002 REZ    
+ip_outp                   007184 REA    ip_process                003D8A RLA    
+ip_proto                  000009 REZ    ip_proto_icmp             000001 REZ    
+ip_proto_tcp              000006  EZ    ip_proto_udp              000011 REZ    
+ip_send                   003E76 RLA    ip_src                    00000C REZ    
+ip_tos                    000001  EZ    ip_ttl                    000008  EZ    
+ip_ver_ihl                000000  EZ    mac_address_msg           005495  LA    
+mul_8_16                  003D4D RLA    native_to_ascii           004D99  LA    
+netmask_msg               0054B3  LA    ok_msg                    005519 RLA    
+op32                      000065  EZ    output_buffer             00786A RLA    
+parse_dotted_quad         003314 RLA    parse_hex_digits          00340C  LA    
+parse_integer             0033C0 RLA    parser_init               003370 RLA    
+parser_skip_next          003378 RLA    press_a_key_to_continue   00553B  LA    
+print                     001CAA RLA    print_a                   00FFD2 REA    
+print_a_inverse           004906 RLA    print_ascii_as_native     001CC0 RLA    
+print_cr                  0048BD RLA    print_dotted_quad         001CD9  LA    
+print_errorcode           001DA6 RLA    print_hex                 001D8D RLA    
+print_integer             001D16  LA    print_ip_config           001C0E  LA    
+resource_download         003BDD RLA    screen_current_col        0000EC REZ    
+screen_current_row        0000EB REZ    sub_16_16                 003CFC  LA    
+tcp_callback              00544C RLA    tcp_close                 00472E RLA    
+tcp_connect               0045DD RLA    tcp_connect_ip            005448 RLA    
+tcp_connect_remote_port   005456  LA    tcp_inbound_data_length   005452 RLA    
+tcp_inbound_data_ptr      005454 RLA    tcp_listen                004583  LA    
+tcp_remote_ip             005448  EA    tcp_send                  004669 RLA    
+tcp_send_data_len         005450 RLA    tcp_send_keep_alive       004711 RLA    
+tcp_send_string           004641 RLA    tcp_state                 005447  LA    
+telnet_connect            00342F RLA    telnet_ip                 0098CE RLA    
+telnet_menu               002928 RLA    telnet_on_connection      00264D RLA    
+telnet_port               0098D2 RLA    telnet_use_native_charset 0098D6 RLA    
+tftp_filename             000069  LZ    tftp_server_msg           0054EF  LA    
+timer_init                004915 RLA    timer_read                004948 RLA    
+timer_seconds             004944 RLA    timer_timeout             002B82 RLA    
+udp_add_listener          0041E4 RLA    udp_callback              007A93 RLA    
+udp_cksum                 000006  EZ    udp_data                  000008 REZ    
+udp_dest_port             000002  EZ    udp_init                  0041B1 RLA    
+udp_inp                   006BA8 REA    udp_len                   000004  EZ    
+udp_outp                  007198  EA    udp_process               0041B7 RLA    
+udp_remove_listener       00422B RLA    udp_send                  004277 RLA    
+udp_send_dest             007A95 RLA    udp_send_dest_port        007A9B RLA    
+udp_send_len              007A9D RLA    udp_send_src_port         007A99 RLA    
+udp_src_port              000000  EZ    url_download              003BD7  LA    
+url_download_buffer       00A20E RLA    url_download_buffer_length 00A210 RLA    
+url_ip                    00A201 RLA    url_parse                 003A60  LA    
+url_port                  00A205 RLA    url_resource_type         00A20A  LA    
+url_selector              00A207 RLA    vt100_init_terminal       004DA3 RLA    
+vt100_process_inbound_char 004DB2 RLA    vt100_transform_outbound_char 005116 RLA    
+w5100_ip65_init           0043B7  LA    w5100_read_register       004574  LA    
+w5100_select_register     005AA0  LA    w5100_set_ip_config       004859  LA    
+w5100_write_register      00457B  LA    xmodem_iac_escape         00A0FD RLA    
+xmodem_receive            00382C RLA    xmodem_send               0036E7 RLA    
+
+
+
+Imports list:
+-------------
+KEYCODE_ABORT (kipperterm2.o):
+KEYCODE_F1 (kipperterm2.o):
+    telnet.o                  telnet.s(15)
+__CODE_LOAD__ ([linker generated]):
+__CODE_RUN__ ([linker generated]):
+__CODE_SIZE__ ([linker generated]):
+__DATA_LOAD__ ([linker generated]):
+__DATA_RUN__ ([linker generated]):
+__DATA_SIZE__ ([linker generated]):
+__IP65_DEFAULTS_LOAD__ ([linker generated]):
+__IP65_DEFAULTS_RUN__ ([linker generated]):
+__IP65_DEFAULTS_SIZE__ ([linker generated]):
+__RODATA_LOAD__ ([linker generated]):
+__RODATA_RUN__ ([linker generated]):
+__RODATA_SIZE__ ([linker generated]):
+__SELF_MODIFIED_CODE_LOAD__ ([linker generated]):
+__SELF_MODIFIED_CODE_RUN__ ([linker generated]):
+__SELF_MODIFIED_CODE_SIZE__ ([linker generated]):
+__STARTUP_LOAD__ ([linker generated]):
+__STARTUP_RUN__ ([linker generated]):
+__STARTUP_SIZE__ ([linker generated]):
+ac_size (arp.o):
+acc16 (arithmetic.o):
+    string_utils.o            string_utils.s(9)
+    kipperterm2.o             ../inc/gopher.i(17)
+acc32 (arithmetic.o):
+add_16_32 (arithmetic.o):
+add_32_32 (arithmetic.o):
+arp_add (arp.o):
+arp_cache (arp.o):
+arp_calculate_gateway_mask (arp.o):
+    dhcp.o                    dhcp.s(29)
+    kipperterm2.o             ../inc/config_menu.i(97)
+arp_init (arp.o):
+    w5100.o                   w5100.s(35)
+    ip65.o                    ip65.s(23)
+arp_ip (arp.o):
+    ip.o                      ip.s(47)
+arp_lookup (arp.o):
+    ip.o                      ip.s(45)
+arp_mac (arp.o):
+    ip.o                      ip.s(46)
+arp_process (arp.o):
+    ip65.o                    ip65.s(32)
+ascii_to_native (petscii_charconv.o):
+    kipperterm2.o             ../inc/commonprint.i(31)
+beep (c64print.o):
+    c64_vt100.o               c64_vt100.s(28)
+    kipperterm2.o             ../inc/menu.i(202)
+buffer_ptr (generic_zero_page.o):
+    telnet.o                  telnet.s(48)
+cfg_default_drive (config.o):
+    kipperterm2.o             ../inc/config_menu.i(5)
+cfg_dns (config.o):
+    dns.o                     dns.s(16)
+    dhcp.o                    dhcp.s(27)
+    kipperterm2.o             ../inc/config_menu.i(120)
+cfg_gateway (config.o):
+    w5100.o                   w5100.s(72)
+    dhcp.o                    dhcp.s(26)
+    arp.o                     arp.s(28)
+    kipperterm2.o             ../inc/config_menu.i(93)
+cfg_get_configuration_ptr (config.o):
+cfg_init (config.o):
+    w5100.o                   w5100.s(37)
+    ip65.o                    ip65.s(19)
+cfg_ip (config.o):
+    w5100.o                   w5100.s(70)
+    udp.o                     udp.s(54)
+    ip.o                      ip.s(29)
+    dhcp.o                    dhcp.s(24)
+    arp.o                     arp.s(26)
+    kipperterm2.o             ../inc/config_menu.i(43)
+cfg_mac (config.o):
+    w5100.o                   w5100.s(69)
+    eth.o                     eth.s(21)
+    ip.o                      ip.s(28)
+    dhcp.o                    dhcp.s(23)
+    arp.o                     arp.s(25)
+    kipperterm2.o             kipperterm2.s(45)
+cfg_mac_default (config.o):
+cfg_netmask (config.o):
+    w5100.o                   w5100.s(71)
+    dhcp.o                    dhcp.s(25)
+    arp.o                     arp.s(27)
+    kipperterm2.o             ../inc/config_menu.i(68)
+cfg_size (config.o):
+cfg_tftp_server (config.o):
+    kipperterm2.o             ../inc/commonprint.i(37)
+check_for_abort_key (c64inputs.o):
+    w5100.o                   w5100.s(76)
+    xmodem.o                  xmodem.s(35)
+    telnet.o                  telnet.s(32)
+    dns.o                     dns.s(37)
+    dhcp.o                    dhcp.s(49)
+cls (c64print.o):
+    kipperterm2.o             ../inc/menu.i(119)
+cmp_16_16 (arithmetic.o):
+cmp_32_32 (arithmetic.o):
+copy_dest (generic_zero_page.o):
+    cbm_disk_access.o         cbm_disk_access.s(29)
+    w5100.o                   w5100.s(44)
+    parser.o                  parser.s(8)
+    udp.o                     udp.s(52)
+    ip.o                      ip.s(60)
+    arithmetic.o              arithmetic.s(7)
+    url.o                     url.s(15)
+    xmodem.o                  xmodem.s(30)
+    string_utils.o            string_utils.s(6)
+    config.o                  config.s(21)
+    copymem.o                 copymem.s(6)
+    kipperterm2.o             ../inc/config_menu.i(44)
+copy_src (generic_zero_page.o):
+    cbm_disk_access.o         cbm_disk_access.s(26)
+    c64inputs.o               c64inputs.s(11)
+    w5100.o                   w5100.s(43)
+    parser.o                  parser.s(7)
+    udp.o                     udp.s(51)
+    ip.o                      ip.s(59)
+    arithmetic.o              arithmetic.s(6)
+    url.o                     url.s(14)
+    xmodem.o                  xmodem.s(29)
+    arp.o                     arp.s(33)
+    config.o                  config.s(20)
+    copymem.o                 copymem.s(5)
+    kipperterm2.o             ../inc/commonprint.i(36)
+copymem (copymem.o):
+    udp.o                     udp.s(50)
+    url.o                     url.s(16)
+    xmodem.o                  xmodem.s(28)
+    config.o                  config.s(19)
+    kipperterm2.o             ../inc/config_menu.i(46)
+dhcp_init (dhcp.o):
+    kipperterm2.o             kipperterm2.s(46)
+dhcp_msg (kipperterm2.o):
+dhcp_server (config.o):
+    dhcp.o                    dhcp.s(19)
+dhcp_state (dhcp.o):
+dns_hostname (generic_zero_page.o):
+    dns.o                     dns.s(40)
+dns_ip (dns.o):
+    url.o                     url.s(25)
+    kipperterm2.o             ../inc/config_menu.i(2)
+dns_resolve (dns.o):
+    url.o                     url.s(23)
+    kipperterm2.o             ../inc/config_menu.i(3)
+dns_server_msg (kipperterm2.o):
+dns_set_hostname (dns.o):
+    url.o                     url.s(22)
+    kipperterm2.o             ../inc/config_menu.i(4)
+dns_status (dns.o):
+dotted_quad_value (dottedquad.o):
+    dns.o                     dns.s(19)
+    kipperterm2.o             ../inc/config_menu.i(41)
+eth_data (eth.o):
+    ip.o                      ip.s(41)
+eth_dest (eth.o):
+    ip.o                      ip.s(38)
+eth_driver_io_base (w5100.o):
+    kipperterm2.o             ../inc/commonprint.i(35)
+eth_driver_name (w5100.o):
+    kipperterm2.o             ../inc/commonprint.i(34)
+eth_init (w5100.o):
+    ip65.o                    ip65.s(21)
+eth_inp (eth.o):
+    w5100.o                   w5100.s(27)
+    icmp.o                    icmp.s(52)
+    ip.o                      ip.s(33)
+    ip65.o                    ip65.s(27)
+    arp.o                     arp.s(15)
+eth_inp_len (eth.o):
+    w5100.o                   w5100.s(28)
+    icmp.o                    icmp.s(53)
+    ip.o                      ip.s(34)
+eth_outp (eth.o):
+    w5100.o                   w5100.s(29)
+    icmp.o                    icmp.s(54)
+    ip.o                      ip.s(35)
+    ip65.o                    ip65.s(28)
+    arp.o                     arp.s(17)
+eth_outp_len (eth.o):
+    w5100.o                   w5100.s(30)
+    icmp.o                    icmp.s(55)
+    ip.o                      ip.s(36)
+    arp.o                     arp.s(18)
+eth_packet (generic_zero_page.o):
+eth_proto_arp (eth.o):
+    ip65.o                    ip65.s(34)
+    arp.o                     arp.s(23)
+eth_proto_ip (eth.o):
+    ip.o                      ip.s(42)
+eth_rx (w5100.o):
+    ip65.o                    ip65.s(29)
+eth_set_broadcast_dest (eth.o):
+    arp.o                     arp.s(20)
+eth_set_my_mac_src (eth.o):
+    arp.o                     arp.s(21)
+eth_set_proto (eth.o):
+    ip.o                      ip.s(32)
+    arp.o                     arp.s(22)
+eth_src (eth.o):
+    ip.o                      ip.s(39)
+eth_tx (w5100.o):
+    icmp.o                    icmp.s(51)
+    ip.o                      ip.s(31)
+    arp.o                     arp.s(19)
+eth_type (eth.o):
+failed_msg (kipperterm2.o):
+    telnet.o                  telnet.s(34)
+filter_dns (c64inputs.o):
+    kipperterm2.o             ../inc/config_menu.i(136)
+filter_ip (c64inputs.o):
+    kipperterm2.o             ../inc/config_menu.i(33)
+filter_number (c64inputs.o):
+    kipperterm2.o             ../inc/telnet.i(14)
+filter_text (c64inputs.o):
+    kipperterm2.o             ../inc/gopher.i(29)
+filter_url (c64inputs.o):
+gateway_msg (kipperterm2.o):
+get_filtered_input (c64inputs.o):
+    kipperterm2.o             ../inc/config_menu.i(35)
+get_key (c64inputs.o):
+get_key_if_available (c64inputs.o):
+    telnet.o                  telnet.s(30)
+    kipperterm2.o             ../inc/gopher.i(15)
+get_key_ip65 (c64inputs.o):
+    kipperterm2.o             ../inc/config_menu.i(21)
+icmp_add_listener (icmp.o):
+icmp_callback (icmp.o):
+icmp_cksum (icmp.o):
+icmp_code (icmp.o):
+icmp_data (icmp.o):
+icmp_echo_ip (icmp.o):
+icmp_init (icmp.o):
+    ip.o                      ip.s(49)
+icmp_inp (icmp.o):
+icmp_outp (icmp.o):
+icmp_ping (icmp.o):
+icmp_process (icmp.o):
+    ip.o                      ip.s(50)
+icmp_remove_listener (icmp.o):
+icmp_send_echo (icmp.o):
+icmp_type (icmp.o):
+init_msg (kipperterm2.o):
+io_callback (cbm_disk_access.o):
+io_device_no (cbm_disk_access.o):
+    kipperterm2.o             kipperterm2.s(60)
+io_error_buffer (cbm_disk_access.o):
+    kipperterm2.o             kipperterm2.s(25)
+io_filename (cbm_disk_access.o):
+    kipperterm2.o             kipperterm2.s(62)
+io_filesize (cbm_disk_access.o):
+    kipperterm2.o             kipperterm2.s(63)
+io_load_address (cbm_disk_access.o):
+io_read_catalogue (cbm_disk_access.o):
+    kipperterm2.o             kipperterm2.s(59)
+io_read_catalogue_ex (cbm_disk_access.o):
+io_read_file (cbm_disk_access.o):
+    kipperterm2.o             kipperterm2.s(61)
+io_read_file_with_callback (cbm_disk_access.o):
+io_read_sector (cbm_disk_access.o):
+io_sector_no (cbm_disk_access.o):
+io_track_no (cbm_disk_access.o):
+io_write_sector (cbm_disk_access.o):
+ip65_ctr (ip65.o):
+ip65_ctr_arp (ip65.o):
+ip65_ctr_ip (ip65.o):
+ip65_error (ip65.o):
+    cbm_disk_access.o         cbm_disk_access.s(27)
+    w5100.o                   w5100.s(74)
+    udp.o                     udp.s(11)
+    icmp.o                    icmp.s(33)
+    url.o                     url.s(18)
+    xmodem.o                  xmodem.s(26)
+    dns.o                     dns.s(15)
+    dhcp.o                    dhcp.s(22)
+    kipperterm2.o             ../inc/commonprint.i(27)
+ip65_init (ip65.o):
+    kipperterm2.o             ../inc/config_menu.i(164)
+ip65_process (ip65.o):
+    c64inputs.o               c64inputs.s(13)
+    w5100.o                   w5100.s(75)
+    icmp.o                    icmp.s(32)
+    url.o                     url.s(19)
+    xmodem.o                  xmodem.s(25)
+    telnet.o                  telnet.s(29)
+    dns.o                     dns.s(21)
+    dhcp.o                    dhcp.s(31)
+    kipperterm2.o             ../inc/gopher.i(246)
+ip65_random_word (ip65.o):
+ip_address_msg (kipperterm2.o):
+ip_broadcast (ip.o):
+    icmp.o                    icmp.s(38)
+ip_calc_cksum (ip.o):
+    udp.o                     udp.s(35)
+    icmp.o                    icmp.s(35)
+ip_cksum_ptr (ip.o):
+    udp.o                     udp.s(40)
+    icmp.o                    icmp.s(44)
+ip_create_packet (ip.o):
+    udp.o                     udp.s(37)
+    icmp.o                    icmp.s(40)
+ip_data (ip.o):
+    udp.o                     udp.s(44)
+    icmp.o                    icmp.s(48)
+ip_dest (ip.o):
+    udp.o                     udp.s(43)
+    icmp.o                    icmp.s(47)
+ip_frag (ip.o):
+ip_header_cksum (ip.o):
+    icmp.o                    icmp.s(45)
+ip_id (ip.o):
+    udp.o                     udp.s(47)
+ip_init (ip.o):
+    w5100.o                   w5100.s(36)
+    ip65.o                    ip65.s(24)
+ip_inp (ip.o):
+    w5100.o                   w5100.s(871)
+    udp.o                     udp.s(38)
+    icmp.o                    icmp.s(36)
+ip_len (ip.o):
+    udp.o                     udp.s(48)
+    icmp.o                    icmp.s(49)
+ip_outp (ip.o):
+    udp.o                     udp.s(39)
+    icmp.o                    icmp.s(37)
+ip_process (ip.o):
+    ip65.o                    ip65.s(31)
+ip_proto (ip.o):
+    udp.o                     udp.s(45)
+    icmp.o                    icmp.s(41)
+ip_proto_icmp (ip.o):
+    icmp.o                    icmp.s(42)
+ip_proto_tcp (ip.o):
+ip_proto_udp (ip.o):
+    udp.o                     udp.s(46)
+ip_send (ip.o):
+    udp.o                     udp.s(36)
+    icmp.o                    icmp.s(39)
+ip_src (ip.o):
+    icmp.o                    icmp.s(46)
+ip_tos (ip.o):
+ip_ttl (ip.o):
+ip_ver_ihl (ip.o):
+mac_address_msg (kipperterm2.o):
+mul_8_16 (arithmetic.o):
+    string_utils.o            string_utils.s(8)
+    kipperterm2.o             ../inc/gopher.i(16)
+native_to_ascii (petscii_charconv.o):
+netmask_msg (kipperterm2.o):
+ok_msg (kipperterm2.o):
+    telnet.o                  telnet.s(33)
+op32 (arithmetic.o):
+output_buffer (output_buffer.o):
+    cbm_disk_access.o         cbm_disk_access.s(28)
+    url.o                     url.s(13)
+    dns.o                     dns.s(30)
+    dhcp.o                    dhcp.s(43)
+parse_dotted_quad (dottedquad.o):
+    dns.o                     dns.s(18)
+    kipperterm2.o             ../inc/config_menu.i(37)
+parse_hex_digits (string_utils.o):
+parse_integer (string_utils.o):
+    url.o                     url.s(24)
+    kipperterm2.o             ../inc/telnet.i(66)
+parser_init (parser.o):
+    url.o                     url.s(20)
+parser_skip_next (parser.o):
+    url.o                     url.s(21)
+press_a_key_to_continue (kipperterm2.o):
+print (kipperterm2.o):
+    telnet.o                  telnet.s(35)
+print_a (c64print.o):
+    xmodem.o                  xmodem.s(36)
+    telnet.o                  telnet.s(21)
+    kipperterm2.o             ../inc/commonprint.i(95)
+print_a_inverse (c64print.o):
+    kipperterm2.o             ../inc/gopher.i(32)
+print_ascii_as_native (kipperterm2.o):
+    xmodem.o                  xmodem.s(38)
+print_cr (c64print.o):
+    xmodem.o                  xmodem.s(37)
+    telnet.o                  telnet.s(22)
+    kipperterm2.o             ../inc/commonprint.i(96)
+print_dotted_quad (kipperterm2.o):
+print_errorcode (kipperterm2.o):
+    telnet.o                  telnet.s(36)
+print_hex (kipperterm2.o):
+    xmodem.o                  xmodem.s(39)
+print_integer (kipperterm2.o):
+print_ip_config (kipperterm2.o):
+resource_download (url.o):
+    kipperterm2.o             ../inc/gopher.i(47)
+screen_current_col (c64print.o):
+    kipperterm2.o             ../inc/gopher.i(31)
+screen_current_row (c64print.o):
+    kipperterm2.o             ../inc/gopher.i(30)
+sub_16_16 (arithmetic.o):
+tcp_callback (w5100.o):
+    url.o                     url.s(29)
+    xmodem.o                  xmodem.s(27)
+    telnet.o                  telnet.s(12)
+tcp_close (w5100.o):
+    url.o                     url.s(30)
+    telnet.o                  telnet.s(20)
+tcp_connect (w5100.o):
+    url.o                     url.s(26)
+    telnet.o                  telnet.s(11)
+tcp_connect_ip (w5100.o):
+    url.o                     url.s(31)
+    telnet.o                  telnet.s(13)
+tcp_connect_remote_port (w5100.o):
+tcp_inbound_data_length (w5100.o):
+    url.o                     url.s(32)
+    xmodem.o                  xmodem.s(34)
+    telnet.o                  telnet.s(17)
+tcp_inbound_data_ptr (w5100.o):
+    url.o                     url.s(33)
+    xmodem.o                  xmodem.s(33)
+    telnet.o                  telnet.s(16)
+tcp_listen (w5100.o):
+tcp_remote_ip (w5100.o):
+tcp_send (w5100.o):
+    xmodem.o                  xmodem.s(31)
+    telnet.o                  telnet.s(18)
+    kipperterm2.o             kipperterm2.s(56)
+tcp_send_data_len (w5100.o):
+    xmodem.o                  xmodem.s(32)
+    telnet.o                  telnet.s(19)
+    kipperterm2.o             kipperterm2.s(57)
+tcp_send_keep_alive (w5100.o):
+    telnet.o                  telnet.s(26)
+tcp_send_string (w5100.o):
+    url.o                     url.s(27)
+tcp_state (w5100.o):
+telnet_connect (telnet.o):
+    kipperterm2.o             ../inc/gopher.i(36)
+telnet_ip (telnet.o):
+    kipperterm2.o             ../inc/gopher.i(35)
+telnet_menu (kipperterm2.o):
+    telnet.o                  telnet.s(45)
+telnet_on_connection (kipperterm2.o):
+    telnet.o                  telnet.s(46)
+telnet_port (telnet.o):
+    kipperterm2.o             ../inc/gopher.i(34)
+telnet_use_native_charset (telnet.o):
+    kipperterm2.o             ../inc/gopher.i(37)
+tftp_filename (generic_zero_page.o):
+tftp_server_msg (kipperterm2.o):
+timer_init (c64timer.o):
+    w5100.o                   w5100.s(32)
+    ip65.o                    ip65.s(22)
+timer_read (c64timer.o):
+    w5100.o                   w5100.s(33)
+    timer.o                   timer.s(13)
+    icmp.o                    icmp.s(56)
+    url.o                     url.s(17)
+    telnet.o                  telnet.s(27)
+    dns.o                     dns.s(38)
+    dhcp.o                    dhcp.s(50)
+    ip65.o                    ip65.s(25)
+    arp.o                     arp.s(30)
+timer_seconds (c64timer.o):
+    xmodem.o                  xmodem.s(40)
+timer_timeout (timer.o):
+    icmp.o                    icmp.s(57)
+    arp.o                     arp.s(31)
+udp_add_listener (udp.o):
+    dns.o                     dns.s(23)
+    dhcp.o                    dhcp.s(33)
+udp_callback (udp.o):
+    dns.o                     dns.s(26)
+    dhcp.o                    dhcp.s(36)
+udp_cksum (udp.o):
+udp_data (udp.o):
+    dns.o                     dns.s(31)
+    dhcp.o                    dhcp.s(41)
+udp_dest_port (udp.o):
+udp_init (udp.o):
+    ip.o                      ip.s(52)
+udp_inp (udp.o):
+    w5100.o                   w5100.s(872)
+    dns.o                     dns.s(29)
+    dhcp.o                    dhcp.s(39)
+udp_len (udp.o):
+udp_outp (udp.o):
+udp_process (udp.o):
+    ip.o                      ip.s(53)
+udp_remove_listener (udp.o):
+    dns.o                     dns.s(24)
+    dhcp.o                    dhcp.s(34)
+udp_send (udp.o):
+    dns.o                     dns.s(27)
+    dhcp.o                    dhcp.s(37)
+udp_send_dest (udp.o):
+    dns.o                     dns.s(33)
+    dhcp.o                    dhcp.s(45)
+udp_send_dest_port (udp.o):
+    dns.o                     dns.s(35)
+    dhcp.o                    dhcp.s(47)
+udp_send_len (udp.o):
+    dns.o                     dns.s(36)
+    dhcp.o                    dhcp.s(48)
+udp_send_src_port (udp.o):
+    dns.o                     dns.s(34)
+    dhcp.o                    dhcp.s(46)
+udp_src_port (udp.o):
+url_download (url.o):
+url_download_buffer (url.o):
+    kipperterm2.o             ../inc/gopher.i(45)
+url_download_buffer_length (url.o):
+    kipperterm2.o             ../inc/gopher.i(46)
+url_ip (url.o):
+    kipperterm2.o             ../inc/gopher.i(39)
+url_parse (url.o):
+url_port (url.o):
+    kipperterm2.o             ../inc/gopher.i(40)
+url_resource_type (url.o):
+url_selector (url.o):
+    kipperterm2.o             ../inc/gopher.i(41)
+vt100_init_terminal (c64_vt100.o):
+    telnet.o                  telnet.s(23)
+vt100_process_inbound_char (c64_vt100.o):
+    telnet.o                  telnet.s(24)
+vt100_transform_outbound_char (c64_vt100.o):
+    telnet.o                  telnet.s(25)
+w5100_ip65_init (w5100.o):
+w5100_read_register (w5100.o):
+w5100_select_register (w5100.o):
+w5100_set_ip_config (w5100.o):
+w5100_write_register (w5100.o):
+xmodem_iac_escape (xmodem.o):
+    kipperterm2.o             ../inc/telnet.i(96)
+xmodem_receive (xmodem.o):
+    kipperterm2.o             kipperterm2.s(41)
+xmodem_send (xmodem.o):
+    kipperterm2.o             kipperterm2.s(42)
+

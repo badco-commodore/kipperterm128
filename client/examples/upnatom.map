@@ -1,0 +1,53 @@
+Modules list:
+-------------
+upnatom.o:
+    CODE              Offs = 000000   Size = 000000
+    RODATA            Offs = 000000   Size = 000000
+    BSS               Offs = 000000   Size = 000000
+    DATA              Offs = 000000   Size = 0021A6
+    ZEROPAGE          Offs = 000000   Size = 000004
+    NULL              Offs = 000000   Size = 000000
+    STARTUP           Offs = 000000   Size = 0004D9
+    SAFE_BSS          Offs = 000000   Size = 003AC8
+
+
+Segment list:
+-------------
+Name                  Start   End     Size
+--------------------------------------------
+NULL                  000000  000000  000000
+ZEROPAGE              000002  000005  000004
+STARTUP               0007FF  000CD7  0004D9
+CODE                  000CD8  000CD8  000000
+DATA                  000CD8  002E7D  0021A6
+BSS                   002E7E  002E7E  000000
+RODATA                002E7E  002E7E  000000
+SAFE_BSS              003000  006AC7  003AC8
+
+
+Exports list:
+-------------
+__CODE_LOAD__             000CD8  LA    __CODE_RUN__              000CD8  LA    
+__CODE_SIZE__             000000  EA    __DATA_LOAD__             000CD8  LA    
+__DATA_RUN__              000CD8  LA    __DATA_SIZE__             0021A6  EA    
+__RODATA_LOAD__           002E7E  LA    __RODATA_RUN__            002E7E  LA    
+__RODATA_SIZE__           000000  EA    __STARTUP_LOAD__          0007FF  LA    
+__STARTUP_RUN__           0007FF  LA    __STARTUP_SIZE__          0004D9  EA    
+
+
+
+Imports list:
+-------------
+__CODE_LOAD__ ([linker generated]):
+__CODE_RUN__ ([linker generated]):
+__CODE_SIZE__ ([linker generated]):
+__DATA_LOAD__ ([linker generated]):
+__DATA_RUN__ ([linker generated]):
+__DATA_SIZE__ ([linker generated]):
+__RODATA_LOAD__ ([linker generated]):
+__RODATA_RUN__ ([linker generated]):
+__RODATA_SIZE__ ([linker generated]):
+__STARTUP_LOAD__ ([linker generated]):
+__STARTUP_RUN__ ([linker generated]):
+__STARTUP_SIZE__ ([linker generated]):
+
