@@ -2,7 +2,7 @@ Assuming I didn't mess it up, this should be the codebase for Kipperterm for the
 
 I originally built this on a PC so the init.cmd file is a setup file to ensure the makes build properly.  Set the values appropriately for your environment and execute the init.cmd before you try to run the make files.
 
-You will require the c1541 pgoram to create the d64, and will need cc65 to cross compile the source code.
+You will require the c1541 program to create the d64, and will need cc65 to cross compile the source code.
 
 There is a lot of code from the original Kipperterm still in place.  There are some #*# files floating around as well, as I used Emacs to edit so I will try to clean them up.. but they are not needed.
 
