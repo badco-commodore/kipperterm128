@@ -1,4 +1,4 @@
-Assuming I didn't mess it up, this should be the codebase for Kipperterm for the Commodore 128.  This was ported from the original KIPPTERTERM code base written by Jonno Jones.
+Assuming I didn't mess it up, this should be the codebase for Kipperterm for the Commodore 128.  This was ported from the original KIPPERTERM code base written by Jonno Jones.
 
 I originally built this on a PC so the init.cmd file is a setup file to ensure the makes build properly.  Set the values appropriately for your environment and execute the init.cmd before you try to run the make files.
 
@@ -19,8 +19,11 @@ HOW TO BUILD
 You will need MAKE on your machine, (on my machine it was installed in the C:\contiki\gnuwin32\bin.. but your machien will be different and as mentioned above c1541 if you wish to create d64 containing the files.
 
 You should just need to (after setting init.cmd properly and running it) 
+
 cd into client/kipperterm128 
+
 and run Make
+
 make 
 
 Assuming I haven't forgotten anything, that should be all you need to do.
